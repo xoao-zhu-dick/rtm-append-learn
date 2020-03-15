@@ -49,11 +49,11 @@ graph TD
 ```
 
 ##### __P1.1.1__图片示例
-![img1](J:\md\rtm append\rtm-append-learn\img1.png)
+![img1](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img1.png)
 
 # ------------------------------------------------------------------------
 
-![img2](J:\md\rtm append\rtm-append-learn\img2.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img2.png)
 
 ---
 ---------------
@@ -148,13 +148,13 @@ graph LR
 ```
 # ------------------------------------------------------------------------
 ##### __P1.2.2__图片示例
-![img3](J:\md\rtm append\rtm-append-learn\img3.png)
+![img3](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img3.png)
 
 # ------------------------------------------------------------------------
 ##### __P1.3__图片纹理
 	可参考assets/miecraft/textures/tarin/(# 不固定)/button_neme.png
 	       外框=256px × 256px   按钮=160 × 32
-![img](J:\md\rtm append\rtm-append-learn\img4.png)
+![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img4.png)
 
                                       操作和创建步骤如下 
 
@@ -164,21 +164,21 @@ graph LR
 
 ​                                                                                        新建button_test 
 
-<img src="J:\md\rtm append\rtm-append-learn\img5.png" alt="img" style="zoom:150%;" />
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;" />
 
 ​                                                                       使用矩形工具在AI里创建106 × 32的灰色 
 
-<img src="J:\md\rtm append\rtm-append-learn\img6.png" alt="img" style="zoom:150%;" />
-![img](J:\md\rtm append\rtm-append-learn\img7.png)
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png" alt="img" style="zoom:150%;" />
+![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
 
 ​                                                                                      加上亿点细节——成果
-![img](J:\md\rtm append\rtm-append-learn\img8.png)
+![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img8.png)
 
 ##  导出
 
-![img](J:\md\rtm append\rtm-append-learn\img9.png)
+![img](mhttps://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
-<img src="J:\md\rtm append\rtm-append-learn\button_test.png" alt="img" style="zoom:200%;" />
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img" style="zoom:200%;" />
 
 ##### __P1.4__声音追加
 
