@@ -124,6 +124,7 @@
 ​                                                                       使用矩形工具在AI里创建106 × 32的灰色 
 
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png" alt="img" style="zoom:150%;" />
+
 ![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
 
 ​                                                                                      加上亿点细节——成果
