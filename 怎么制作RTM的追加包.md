@@ -2,7 +2,9 @@
 
 -----------------
 
+
 ## beta版0.3（bug，QQ群：287092893）
+
 ###### ~~教不会算我输~~
 
 # 目录
@@ -226,9 +228,14 @@ LOW|MEDIUM
 
 ![img16](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img16.png)
 
+
+# 画质高可能会导致游戏崩溃
+
+
 ---
 ---------------
 ---
+
 
 #### __P1.6__js脚本
 
@@ -355,6 +362,8 @@ function onUpdate(su){ ···每一tick调用方法
 ---
 ---------------
 ---
+
+
 
 
 
