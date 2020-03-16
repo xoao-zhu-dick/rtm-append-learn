@@ -43,6 +43,10 @@
 
 ![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img3.png)
 
+
+
+
+
 ---
 ---------------
 ---
@@ -77,7 +81,7 @@
 
 # ------------------------------------------------------------------------
 ##### __P1.2.2__图片示例
-<<<<<<< HEAD
+
 ![img3](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img3.png)
 
 
@@ -86,7 +90,7 @@
 	可参考assets/miecraft/textures/tarin/(# 不固定)/button_neme.png
 	       外框=256px × 256px   按钮=160 × 32
 
-=======
+
 ![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img4.png)
 
 
@@ -104,21 +108,22 @@
 #                                                             使用矩形工具在AI里创建106 × 32的灰色 
 
 
-![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png)
+
+![img6](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png)
 
 ![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
 
 
 #                                                                         加上亿点细节——成果
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img8.png)
+![img8](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img8.png)
 
 ##  导出
 
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
+![img9](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img" style="zoom:200%;" />
 
-=======
+
 
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;" />
 
@@ -137,7 +142,13 @@
 ![img](mhttps://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
 
+
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img10" style="zoom:150%;" />
+
+
+
+![img10](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png)
+
 
 
 ##### __P1.4__声音追加
