@@ -134,7 +134,7 @@
 
 ![img](mhttps://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
-![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png)
+![img10](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png)
 
 
 ##### __P1.4__声音追加
