@@ -1,7 +1,7 @@
 # 怎么制作RTM的追加包
 
 -----------------
-## beta版0.1（正在修复的bug，排版）
+## beta版0.2（正在修复的bug，排版）
 ###### ~~教不会算我输~~
 
 # 目录
@@ -100,13 +100,14 @@
 #                                                                         新建button_test 
 
 
-<https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;" />
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;">
 
 #                                                             使用矩形工具在AI里创建106 × 32的灰色 
 
 
-<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/edit/master/img6.png" alt="img" style="zoom:150%;" />
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/edit/master/img6.png" alt="img" style="zoom:150%;">
+
+![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
 
 
 #                                                                         加上亿点细节——成果
