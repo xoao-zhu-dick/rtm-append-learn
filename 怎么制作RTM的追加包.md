@@ -10,20 +10,20 @@
 # 目录
 
 ## 0.准备应用
->模型
+> #### 模型
 >>metasequoia4[下载在QQ群]
 >>3Dmax [敬请期待][]
 >>MCTE  [敬请期待][]
->材质
->>AI 32x[下载][http://prdl-download.adobe.com/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509976186706/AdobeIllustrator22_HD_win32.zip?red=a] 64x[下载][http://prdl-download.adobe.com/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509968804429/AdobeIllustrator22_HD_win64.zip?red=a]
->>PS 32x[下载][http://prdl-download.adobe.com/Photoshop/66A1D1E00DE44601B041A631261EC584/1507845150875/AdobePhotoshop19-mul.zip?red=a] 64x[下载][http://prdl-download.adobe.com/Photoshop/66A1D1E00DE44601B041A631261EC584/1507846032938/AdobePhotoshop19-mul_x64.zip?red=a]
+> #### 材质
+>>AI    32x[下载][http://prdl-download.adobe.com/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509976186706/AdobeIllustrator22_HD_win32.zip?red=a]     64x[下载][http://prdl-download.adobe.com/Illustrator/C1208DBFE1D04A81A21C62CDF6A96AC6/1509968804429/AdobeIllustrator22_HD_win64.zip?red=a]
+>>PS   32x[下载][http://prdl-download.adobe.com/Photoshop/66A1D1E00DE44601B041A631261EC584/1507845150875/AdobePhotoshop19-mul.zip?red=a]     64x[下载][http://prdl-download.adobe.com/Photoshop/66A1D1E00DE44601B041A631261EC584/1507846032938/AdobePhotoshop19-mul_x64.zip?red=a]
 >>画图
->音效
->编辑
->>DW  32x[下载][http://prdl-download.adobe.com/Dreamweaver/0D145873957D4FEF849999B43723DA1E/1509108370613/Dreamweaver%20CC%202018%20Set-up.exe?red=a] 64x[下载][http://prdl-download.adobe.com/Dreamweaver/0D145873957D4FEF849999B43723DA1E/1509107886842/Dreamweaver%20CC%202018%20Set-up.exe?red=a]
+> #### 音效
+> #### 编辑
+> > DW  32x[下载][http://prdl-download.adobe.com/Dreamweaver/0D145873957D4FEF849999B43723DA1E/1509108370613/Dreamweaver%20CC%202018%20Set-up.exe?red=a]  64x[下载][http://prdl-download.adobe.com/Dreamweaver/0D145873957D4FEF849999B43723DA1E/1509107886842/Dreamweaver%20CC%202018%20Set-up.exe?red=a]
 >>记事本
->其他
->>adobe 18 pro注册机[下载][http://xzc.198424.com/amtemupainter.zip]
+> #### 其他
+>adobe 18 pro注册机[下载][http://xzc.198424.com/amtemupainter.zip]
 
 ## 1.创建追加包(基础)[P1][P1]
 > ### 1.1zip结构图[p1.1][##### __P1.1__文件目录]
@@ -356,6 +356,7 @@ function onUpdate(su){ ···每一tick调用方法
 `船`|ModelTrain_|Ship|无
 
 源素材
+
 ![img13](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img13.png)
 
 ---
