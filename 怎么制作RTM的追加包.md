@@ -1,7 +1,7 @@
 # 怎么制作RTM的追加包
 
 -----------------
-## beta版0.1（正在修复的bug，排版）
+## beta版0.2（正在修复的bug，排版）
 ###### ~~教不会算我输~~
 
 # 目录
@@ -28,115 +28,119 @@
 
 ##### __P1.1__文件目录
 
-![img1](https://github.com/xoao-zhu-dick/rtm-append-learn/f1.png)
+![img1](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f1.png)
 
 ##### __P1.1.1__图片示例
-<<<<<<< HEAD
-![img1](https://github.com/xoao-zhu-dick/rtm-append-learn/img1.png)
 
-# ------------------------------------------------------------------------
-
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/img2.png)
-=======
 ![img1](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img1.png)
 
 # ------------------------------------------------------------------------
 
 ![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img2.png)
->>>>>>> f00ac2d94f2f54aaf214735cc8dc998c2c381a73
+
+
+# ------------------------------------------------------------------------
+
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img3.png)
 
 ---
 ---------------
 ---
 ##### __P1.2__支持格式
 
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f2.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f2.png)
 
 # ------------------------------------------------------------------------
 ##### __P1.2.1__备注
 
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f3.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f3.png)
 
 ---
 ---------------
 ---
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f4.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f4.png)
 
 ---
 ---------------
 ---
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f5.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f5.png)
 
 ---
 ---------------
 ---
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f6.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f6.png)
 
 ---
 ---------------
 ---
-![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/f7.png)
+![img2](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/f7.png)
 
 # ------------------------------------------------------------------------
 ##### __P1.2.2__图片示例
 <<<<<<< HEAD
-![img3](https://github.com/xoao-zhu-dick/rtm-append-learn/img3.png)
-=======
 ![img3](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img3.png)
->>>>>>> f00ac2d94f2f54aaf214735cc8dc998c2c381a73
+
 
 # ------------------------------------------------------------------------
 ##### __P1.3__图片纹理
 	可参考assets/miecraft/textures/tarin/(# 不固定)/button_neme.png
 	       外框=256px × 256px   按钮=160 × 32
-<<<<<<< HEAD
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/img4.png)
+
 =======
 ![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img4.png)
->>>>>>> f00ac2d94f2f54aaf214735cc8dc998c2c381a73
+
 
                                       操作和创建步骤如下 
 
-​                                                                                   软件AI 2018 CC pro
+#                                                                    软件AI 2018 CC pro
 
-​                                                                           有不明白的加QQ群387092893
+#                                                                 有不明白的加QQ群387092893
 
-​                                                                                        新建button_test 
+#                                                                         新建button_test 
 
-<<<<<<< HEAD
-<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/img5.png" alt="img" style="zoom:150%;" />
 
-​                                                                       使用矩形工具在AI里创建106 × 32的灰色 
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;">
 
-<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/img6.png" alt="img" style="zoom:150%;" />
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/img7.png)
+#                                                             使用矩形工具在AI里创建106 × 32的灰色 
 
-​                                                                                      加上亿点细节——成果
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/img8.png)
+
+![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png)
+
+![img7](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
+
+
+#                                                                         加上亿点细节——成果
+![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img8.png)
 
 ##  导出
 
-![img](https://github.com/xoao-zhu-dick/rtm-append-learn/img9.png)
+![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
-<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/button_test.png" alt="img" style="zoom:200%;" />
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img" style="zoom:200%;" />
+
 =======
+
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img5.png" alt="img" style="zoom:150%;" />
 
-​                                                                       使用矩形工具在AI里创建106 × 32的灰色 
+#                                                                      使用矩形工具在AI里创建106 × 32的灰色 
 
 <img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img6.png" alt="img" style="zoom:150%;" />
+
 ![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img7.png)
 
-​                                                                                      加上亿点细节——成果
+#                                                                                      加上亿点细节——成果
+
 ![img](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img8.png)
 
 ##  导出
 
 ![img](mhttps://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img9.png)
 # 画质高可能会导致游戏崩溃
-<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img" style="zoom:200%;" />
->>>>>>> f00ac2d94f2f54aaf214735cc8dc998c2c381a73
+
+<img src="https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/button_test.png" alt="img10" style="zoom:150%;" />
+
 
 ##### __P1.4__声音追加
 
 #                                   **to be continued**  
+
