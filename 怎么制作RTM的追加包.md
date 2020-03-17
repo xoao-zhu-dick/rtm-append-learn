@@ -3,7 +3,7 @@
 -----------------
 
 
-## beta版0.4（bug上天，QQ群：287092893）
+## beta版0.4.1（bug上天，QQ群：287092893）
 
 ###### ~~教不会算我输~~
 
@@ -410,22 +410,68 @@ isComplessorActive()|booleam |列车制动风|列车专用
 ### （3.1）可根据绘图脚本部件详细控制绘图。但是需要OPEN GL的知识。特别是坐标处理很特殊，请注意。
 
 ```js
-var renderClass = 'jp.ngt.rtm.render.MachinePartsRenderer';
-importPackage(Packages.org.lwjgl.opengl);
-importPackage(Packages.jp.ngt.rtm.render);
-importPackage(Packages.jp.ngt.ngtlib.math);
+var renderClass = 'jp.ngt.rtm.render.MachinePartsRenderer'; ···后面讲
+importPackage(Packages.org.lwjgl.opengl); ···准备使用GL 11类
+importPackage(Packages.jp.ngt.rtm.render); ···准备使用Parts类
+importPackage(Packages.jp.ngt.ngtlib.math); ···使用NGTMATH等级的准备（任意）
 
-var turnR;
+var turnR; ···全局变量
 
-function init(par1, par2)
+function init(par1, par2) ···初期化处理（後述、必須）
 {
-   main = renderer.registerParts(new Parts('pole', 'light_a', 'light_b', 'body1', 'body2', 'body3', 'dirB', 'body4', 'base', 'dirR', 'dirL'));
+   main = renderer.registerParts(new Parts('pole', 'light_a', 'light_b', 'body1', 'body2', 'body3', 'dirB', 'body4', 'base', 'dirR', 'dirL'));···创建部件，并列出用于该部件的对象名称
 
    lightL = renderer.registerParts(new Parts('light_L', 'dirR'));
    lightR = renderer.registerParts(new Parts('light_R', 'dirL'));
    bar = renderer.registerParts(new Parts('bar0', 'bar1'));
-   turnR = (renderer.getModelName().equals("CrossingGate01R"));
+   turnR = (renderer.getModelName().equals("CrossingGate01R")); ···变量初始化，这里准备了根据模型名称分开处理的变量
+   
+   }
+   
+   function render(entity, pass, par3) ···贴图处理（後述、必須）
+   {
+   GL11.glPushMatrix(); ···保存当前坐标状态(glPopmatrix（）和组合使用)
+   
+   var light = renderer.getLightState(entity);
+   
+   if(pass == RenderPass.NORMAL.id) ···绘制常规部件
+   {
+     main.render(renderer); ···绘制部件
+     
+     GL11.glPushMatrix();
+     var move = renderer.getMovingCount(entity) * (turnR ? 90.0 : - 90.0);
+     renderer.rotate(move, 'Z', 0.0, 0.5337, -0.24); ···Z轴旋转
+     bar.render(renderer);
+     GL11.glPopMatrix();
+     
+     switch(light)
+     {
+     case 0: lightL.render(renderer);break;
+     case 1: lightR.render(renderer);break;
+    }
+  }
+  else if(pass == RenderPass.LIGHT.id) ···绘制发光部件
+  {
+  switch(light)
+  {
+  case 0: lightR.render(renderer);break;
+  case 1: lightL.render(renderer);break;
+    }
+  }
+     GL11.glPopMatrix(); ···调用以glPushmatrix（）保存的坐标状态
+ }
 ```
+创建部件，并列出用于该部件的对象名称
+
+![img17](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img17.png)
+
+绘制发光部件
+
+![img18](https://github.com/xoao-zhu-dick/rtm-append-learn/blob/master/img18.png)
+
+
+
+
 
 ---
 ---------------
