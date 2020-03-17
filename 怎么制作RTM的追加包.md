@@ -3,7 +3,7 @@
 -----------------
 
 
-## beta版0.3（bug，QQ群：287092893）
+## beta版0.4（bug上天，QQ群：287092893）
 
 ###### ~~教不会算我输~~
 
@@ -42,7 +42,10 @@
 > >### __P1.5.1__普通[p1.5.1][# 普通举例]
 > >### __P1.5.2__通用[p1.5.2][# 通用举例]
 > ### __P1.6__js脚本[p1.6][#### __P1.6__js脚本]
->  ### __T1_追加表[t1][##### __T1__可追加表格]
+> >####  __P1.6__声音js[p1.6.1][# __使用此功能时，不需要“sound Stop”到“sound D S”的行驶声音项目__]
+> >####  __P1.6__贴图js[p1.6.2][## (3)贴图脚本]
+>
+> ### __T1_追加表[t1][##### __T1__可追加表格]
 ## 2.模型[P2][P2]
 
 
@@ -250,6 +253,7 @@ LOW|MEDIUM
 >## (2)音效脚本
 >>### 使用脚本而不使用默认的声音设置的话，可以通过速度和陷波来调整声音、音节、音量等，进行细致的控制。
 
+
 # __使用此功能时，不需要“sound Stop”到“sound D S”的行驶声音项目__
 
 ```js
@@ -314,6 +318,120 @@ function onUpdate(su){ ···每一tick调用方法
            }
        }
 ```
+
+* 参数“su”是负责语音控制的项目。使用其中的各种方法。suplay Sound也可以用于改变已经播放的声音的音量和间距。
+
+* ### 可使用的类参考
+名前固定|value值|介绍|备注
+:----:|:----:|:----:|:----:
+getSpeed()|float|获取当前速度|
+inTunnel()|boolean|是否在隧道里|
+playSound(# String domain, String path, float volume, float pitch, boolean repeat)|void|播放声音|
+stopSound(# String domain, String path)|void|声音停止
+stopAllSounds()|void|停止所有声音|
+getData(int id)|Object|获得Data|
+setData(Object value)|void |设置Data|
+getMaxSpeed()|float |获取最高时速|列车专用
+getNotch()|int |获取当前档位|列车专用
+getState()|byte |获取最高时速|列车专用
+isComplessorActive()|booleam |列车制动风|列车专用
+
+># value值的含义
+># 数据类型包括基本类型和构造类型；基本数据类型又包括整形、实型、浮点型(float)、布尔型(boolean)、字符型；构造类型又包括数组类型、类、接口（多重继承）
+>
+>> ## float:是原始数据类型，赋值方法float b = 111.111f; //数字后面的f代表float类型，否则会报错。而Float，是对float的封装，是一个类，所以赋值时需要赋给一个对象
+```js
+{
+  float a = 666.888
+}
+```
+
+> > ##  boolean:boolean是java中的布尔型（逻辑型）数据类型，在java中boolean值只能是true和false，而不能用0和1代替，并且一定要小写。
+> > >### 使用关键词 new 来定义 Boolean 对象。下面的代码定义了一个名为 myBoolean 的逻辑对象：
+```js
+{
+  var myBoolean = new Boolean()
+}
+```
+
+> > >### 下面的所有的代码行均会创建初始值为 false 的 Boolean 对象：
+```js
+{
+  var myBoolean = new Boolean(0 null "" NaN)
+}
+```
+
+> > >### 下面的所有的代码行均会创初始值为 true 的 Boolean 对象：
+```js
+{
+  var myBoolean = new Boolean(1 true "true" "falae" "Bill Gates")
+}
+```
+
+> > ##  void:它代表的意思是什么也不返回，我们在开发过程中经常会用到，如一个方法不需要返回值时可以使用void关键字，在main方法中也是void关键字:
+```js
+{
+  public static void getName() {
+        String name = "username";
+        System.out.println(name);
+}
+```
+
+> > ## object:这种参数定义是在不确定方法参数的情况下的一种多态表现形式。即这个方法可以传递多个参数，这个参数的个数是不确定的。这样你在方法体中需要相应的做些处理。因为Object是基类，所以使用Object
+```js
+{
+  public class Example{
+
+   Public void f(Object obj){
+   }
+}
+```
+
+> > ## byte:通常在读取非文本文件时（如图片，声音，可执行文件）需要用字节数组来保存文件的内容，在下载文件时，也是用byte数组作临时的缓冲器接收文件内容。所以说byte在文件操作时是必不可少的。不管是对文件写入还是读取都要用到。
+```js
+{
+ public class A {
+ public static void main(String[] args) {
+  int b = 456;
+  byte test = (byte) b;
+  System.out.println(test);
+ }
+}
+```
+
+> > ## int: int表示的就是定义整型数据 
+```js
+{
+  public void demo(int[] n){}
+}
+```
+
+## (3)贴图脚本
+### （3.1）可根据绘图脚本部件详细控制绘图。但是需要OPEN GL的知识。特别是坐标处理很特殊，请注意。
+
+```js
+var renderClass = 'jp.ngt.rtm.render.MachinePartsRenderer';
+importPackage(Packages.org.lwjgl.opengl);
+importPackage(Packages.jp.ngt.rtm.render);
+importPackage(Packages.jp.ngt.ngtlib.math);
+
+var turnR;
+
+function init(par1, par2)
+{
+   main = renderer.registerParts(new Parts('pole', 'light_a', 'light_b', 'body1', 'body2', 'body3', 'dirB', 'body4', 'base', 'dirR', 'dirL'));
+
+   lightL = renderer.registerParts(new Parts('light_L', 'dirR'));
+   lightR = renderer.registerParts(new Parts('light_R', 'dirL'));
+   bar = renderer.registerParts(new Parts('bar0', 'bar1'));
+   turnR = (renderer.getModelName().equals("CrossingGate01R"));
+```
+
+---
+---------------
+---
+
+
 
 ---
 ---------------
